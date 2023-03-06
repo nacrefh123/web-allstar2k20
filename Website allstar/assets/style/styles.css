@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h2{
+    color: rgb(220,0,0);
+}
+
+.jumbotron{
+    font-size: 30px;
+    text-shadow: 5px 3px 2px rgb(53, 68, 79);
+    padding: 40px;
+    background-color: black;
+    text-align: center;
+    color: rgb(220, 0, 0);
+    background-image: url(../image/bg.png);
+}
+
+.jumbotron img{
+    width: 200px;
+}
+
+header{
+    display: inline;
+}
+
+footer { 
+    padding: 1.5rem;
+    margin-top: auto;
+    color: white;
+    background-color: #c30000;
+    text-align: center;
+    font-weight: bold;
+}
+
+.classh1{
+    padding: 2em;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.profil header{
+    text-align: center;
+}
+
+.profil img{
+    width: 200px;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.team header{
+    text-align: center;
+    font-size: medium;
+}
+
+.team img{
+    width: 1000px;
+}
+
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+nav{
+    text-align: center;
+    background-color: #c30000;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+nav a{
+    font-size: 18px;
+    font-weight: 350;
+    text-decoration: wavy;
+    color: white;
+}
+aside{
+    float:right;
+    width: 25%;
+    padding-right: 20px;
+}
+
+.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float:inline-start;
+    width: 100%;
+    grid-row:auto;
+}
+
+.gallery header{
+    text-align: center;
+    font-size: large;
+    display: inline-grid;
+    row-gap: 50px;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.gallery img{
+    width: 300px;
+    height: auto;
+}
+
+.desc{
+    padding: 15px;
+    text-align: center;
+}
+#content{
+    float: left;
+    width: 70%;
+}
+
+nav a:hover{
+    background: black;
+    color: rgb(49, 143, 180);
+}
+.isiprofil{
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    #content, aside {
+        width: 100%;
+        padding: 0;
+    }
+}
